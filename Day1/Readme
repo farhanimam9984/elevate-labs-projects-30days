@@ -1,0 +1,12 @@
+# Responsive Landing Page
+
+This project is a simple, responsive landing page built using *HTML5* and *CSS3. It was created as part of the **Web Development Internship Task* by Elevate Labs, under the Ministry of MSME, Govt. of India.
+
+## Features
+
+- *Responsive Design*: Works on both desktop and mobile screens.
+- *Header*: Contains a logo and navigation links.
+- *Hero Section*: Includes a heading, paragraph, and call-to-action (CTA) button.
+- *Links Section*: Displays useful navigation links.
+- *Footer*: Contains social media links.
+- *CSS Flexbox & Media Queries*: Used to implement responsiveness and layout
