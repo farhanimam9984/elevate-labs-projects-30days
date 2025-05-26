@@ -1,0 +1,121 @@
+
+
+*{ 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; }
+
+
+body { 
+    font-family: Arial, sans-serif; 
+    line-height: 1.6;
+ }
+
+.container { 
+    width: 90%; 
+    max-width: 1200px; 
+    margin: auto; 
+}
+
+header { 
+    background-color: #333; 
+    color: white; 
+    padding: 1rem 0; }
+
+.nav-container { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; }
+
+.logo { 
+    font-size: 1.5rem; }
+
+.nav-links { 
+    list-style: none; 
+    display: flex; 
+    gap: 1rem; }
+
+.nav-links a { 
+    color: white; 
+    text-decoration: none; 
+    transition: color 0.3s; }
+
+.nav-links a:hover { 
+    color: #f0a500; }
+
+.hero {
+     background: #f4f4f4; 
+     padding: 4rem 0; 
+     text-align: center; }
+
+.hero h2 { 
+    font-size: 2.5rem; 
+    margin-bottom: 1rem; }
+
+.hero p { 
+    font-size: 1.2rem; 
+    margin-bottom: 2rem; }
+
+.cta-button { 
+    background: #333; 
+    color: white; 
+    padding: 0.75rem 1.5rem; 
+    text-decoration: none; 
+    border-radius: 5px; 
+    transition: background 0.3s; }
+
+.cta-button:hover { 
+    background: #f0a500; }
+
+.links-section { 
+    background: #fff; 
+    padding: 2rem 0; 
+    text-align: center; }
+
+.links-section h3 { 
+    font-size: 2rem; 
+    margin-bottom: 1rem; }
+
+.info-links { 
+    list-style: none; 
+    display: flex;
+     justify-content: center; 
+     flex-wrap: wrap;
+      gap: 1rem; }
+
+.info-links a { 
+    text-decoration: none; 
+    color: #333; 
+    transition: color 0.3s; }
+
+.info-links a:hover { 
+    color: #f0a500; }
+
+footer { 
+    background: #222; 
+    color: white; 
+    padding: 2rem 0; 
+    text-align: center; }
+
+.footer-content { 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    gap: 1rem; }
+
+.social-links a { 
+    color: white; 
+    margin: 0 0.5rem; 
+    text-decoration: none;
+     transition: color 0.3s; }
+
+.social-links a:hover { 
+    color: #f0a500; }
+
+@media (max-width: 768px) { .nav-container { flex-direction: column; align-items: flex-start; }
+
+.nav-links { flex-direction: column; width: 100%; gap: 0.5rem; margin-top: 1rem; }
+
+.info-links { flex-direction: column; gap: 0.5rem; }
+
+.footer-content { text-align: center; } }
